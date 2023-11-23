@@ -1,85 +1,36 @@
-# Echo
-
-This is a state-of-the-art messaging and video conferencing application, similar to Slack, WhatsApp, and Messenger, with added AI capabilities. It's designed to record video conversations and provide summarized transcripts, along with a responsive AI bot for post-meeting queries.
-
-## Features
-
-- Real-time messaging and video conferencing.
-- AI-driven conversation recording and summarization.
-- AI bot for answering queries about meeting discussions.
-- Sleek and responsive user interface with React and Tailwind CSS.
-- Robust backend management with Next.js and Prisma.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [Deployment](#deployment) for notes on how to deploy the project on a live system.
+First, run the development server:
 
-### Prerequisites
-
-What you need to install the software and how to install them:
-
-- Node.js
-- npm or yarn
-
-### Installing
-
-A step-by-step series of examples that tell you how to get a development environment running:
-
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-npm install
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Running the Tests
+## Learn More
 
-Explain how to run the automated tests for this system.
+To learn more about Next.js, take a look at the following resources:
 
-### Integration Tests
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-npm run test-integration
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
-### And Coding Style Tests
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-npm run test-style
-
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system.
-
-## Built With
-
-- [Next.js](https://nextjs.org/) - The web framework used.
-- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
-- [Tailwind CSS](https://tailwindcss.com/) - CSS framework for rapid and responsive design.
-- [Prisma](https://www.prisma.io/) - ORM for database interactions.
-- ...
-
-## Contributing
-
-Please read [CONTRIBUTING.md](link-to-CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](link-to-repository-tags).
-
-## Authors
-
-- **Your Name** - *Initial Work* - [YourUsername](link-to-your-profile)
-- **Your Name** - *Initial Work* - [YourUsername](link-to-your-profile)
-
-See also the list of [contributors](link-to-contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](link-to-LICENSE.md) file for details.
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
