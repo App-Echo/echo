@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align='center'>Echo</h1>
 
-## Getting Started
+<p align='center'>Echo is an online communication application that provides advanced features for efficient professional meetings and discussions.</p>
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Audio and Video Calls:** Organize virtual meetings with high-quality audio and video calls.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Real-time Chat:** Instant messaging between participants during meetings.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Live Transcription:** Automatic real-time transcription of meeting audio.
 
-## Learn More
+- **Audio Synthesis:** Generation of audio synthesis from meeting transcriptions.
 
-To learn more about Next.js, take a look at the following resources:
+- **Real-time Collaboration:** Screen and document sharing in real-time for effective collaboration.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Frontend:** Next.js, TypeScript, Tailwind CSS.
 
-## Deploy on Vercel
+- **Backend:** Node.js, Prisma (ORM).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Audio Processing:** Real-time transcription services, AI models for audio synthesis.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Project Creators
+
+Alessandro Masson & Ali Haboula
+
+2023-2024
