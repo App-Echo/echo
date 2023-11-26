@@ -1,0 +1,29 @@
+name: Continuous Integration
+
+# Ce workflow est déclenché à chaque push et pull request sur toutes les branches
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      # Configurer Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20" # ou toute autre version de Node.js que vous utilisez
+
+      # Installer les dépendances
+      - name: Install Dependencies
+        run: npm install
+
+      # Construire le projet (si nécessaire)
+      - name: Build
+        run: npm run build
+
+      # Exécuter les tests
+      - name: Run Tests
+        run: npm test
