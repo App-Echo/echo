@@ -1,7 +1,3 @@
-# Pull Request Title
-
-Related Trello Card: [Insert Trello Card Link Here]
-
 ## Description
 
 Please provide a summary of the changes you have made.
