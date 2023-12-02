@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} bg-diagonal relative`}>
+      <body className={`${roboto.className} relative bg-diagonal`}>
         <div className="absolute inset-0">
           <Image src="/bgCircles.png" alt="Background image" className="object-contain" fill priority />
         </div>
