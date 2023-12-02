@@ -18,6 +18,7 @@ const config: Config = {
       '2xl': '128rem',
     },
     spacing: {
+      '0': '0rem',
       '1': '0.4rem',
       '2': '0.8rem',
       '3': '1.2rem',
